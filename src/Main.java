@@ -5,7 +5,6 @@ public class Main {
         Automobile myCar = new Car("sedan", "white");
         Automobile myPickup = new Pickup("ute", "silver");
         Automobile mySUV = new SUV("universal", "black");
-
         letsDrive();
     }
 
