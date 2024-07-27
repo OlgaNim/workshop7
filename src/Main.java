@@ -14,7 +14,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String carType = sc.nextLine();
         if (carType.equals("Car")) {
-            System.out.println(myCar);
+            Automobile.aboutCarBody("sedan");
+            Automobile.aboutCarColor("white");
         } else if (carType.equals("Pickup")) {
 
         } else if (carType.equals("SUV")) {
@@ -23,7 +24,5 @@ public class Main {
             System.out.println("Wrong type");
         }
     }
-    public void aboutMyCar(String carBody, String color) {
-        System.out.println(carBody, color);
-    }
+
 }
