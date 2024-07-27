@@ -23,4 +23,7 @@ public class Main {
             System.out.println("Wrong type");
         }
     }
+    public void aboutMyCar(String carBody, String color) {
+        System.out.println(carBody, color);
+    }
 }
